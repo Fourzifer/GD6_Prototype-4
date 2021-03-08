@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Song we have chosen
+  - name: Mystic
     clip: {fileID: 8300000, guid: fed787ff2d770ef4eb7400540aff28de, type: 3}
     volume: 0.456
     pitch: 1.06
