@@ -650,7 +650,19 @@ MonoBehaviour:
   - name: Mystic
     clip: {fileID: 8300000, guid: fed787ff2d770ef4eb7400540aff28de, type: 3}
     volume: 0.456
-    pitch: 1.06
+    pitch: 1.44
+    loop: 1
+    source: {fileID: 0}
+  - name: Double_Plop
+    clip: {fileID: 8300000, guid: 061eaba2a5e0d4a4fb52010e9e51203c, type: 3}
+    volume: 0.456
+    pitch: 1.4
+    loop: 1
+    source: {fileID: 0}
+  - name: Plop_Single
+    clip: {fileID: 8300000, guid: 66218e80c1e85bb4c95839e872ebbe1b, type: 3}
+    volume: 0.456
+    pitch: 1.41
     loop: 1
     source: {fileID: 0}
 --- !u!1 &519420028
