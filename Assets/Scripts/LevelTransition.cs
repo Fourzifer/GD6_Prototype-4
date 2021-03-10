@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class LevelTransition : MonoBehaviour
 {
-    static int totalPlayers = 0;
+    public static int totalPlayers = 0;
 
     // Update is called once per frame
     void Update()
     {
         if (totalPlayers == 2)
         {
-            SceneManager.LoadScene("MainScene");
+            Debug.Log("2");
+            //totalPlayers = 0;
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            
         }
     }
 
@@ -24,5 +27,14 @@ public class LevelTransition : MonoBehaviour
     private void OnTriggerExit2D(Collider2D other)
     {
         totalPlayers -= 1;
+    }
+
+    private void Teleport()
+    {
+        if (totalPlayers == 2)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+
     }
 }
