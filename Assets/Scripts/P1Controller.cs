@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class P1Controller : MonoBehaviour
 {
-    float speed = 2;
+    float speed = 2f;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -18,16 +18,14 @@ public class P1Controller : MonoBehaviour
         movement.y = Input.GetAxis("P1_Vertical");
 
         animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
 
         //animator.SetFloat("Horizontal", P1_horizontalInput);
         //animator.SetFloat("Vertical", P1_verticalInput);
-        //animator.SetFloat("Speed", speed);
 
-        //Player 1 Gamepad
-        movement.x = Input.GetAxis("P1_Horizontal_Gamepad");
-        movement.y = Input.GetAxis("P1_Vertical_Gamepad");
-
-        //if ((P1_horizontalInput < 0.01) || (P1_horizontalInput > 0.01))
+        //if ((kbMovement.x < 0.01) || (kbMovement.x > 0.01))
         //{
 
         //}
@@ -38,4 +36,3 @@ public class P1Controller : MonoBehaviour
         rb.MovePosition(rb.position + movement * speed * Time.fixedDeltaTime);
     }
 }
-  
