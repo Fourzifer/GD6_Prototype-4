@@ -38,6 +38,27 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Floor
+    uniqueID: 404247113
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Walls
+    uniqueID: 9004567
+    locked: 0
+  - name: Exits
+    uniqueID: 243432333
+    locked: 0
+  - name: Doors
+    uniqueID: 3003417623
+    locked: 0
+  - name: Gates
+    uniqueID: 3552220187
+    locked: 0
+  - name: Pressure Plates
+    uniqueID: 2905223899
+    locked: 0
+  - name: Player
+    uniqueID: 606456523
     locked: 0
