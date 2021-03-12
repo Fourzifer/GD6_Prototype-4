@@ -13,6 +13,7 @@ public class DoorScript : MonoBehaviour
     void Start()
     {
         doorParent = GameObject.Find("Doors");
+        LevelTransition.totalPlayers = 0;
     }
 
     // Update is called once per frame
@@ -24,7 +25,7 @@ public class DoorScript : MonoBehaviour
 
             foreach (Transform child in doorParent.transform)
             {
-
+            Debug.Log("2");
             child.gameObject.SetActive(false);
             //child.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
 
