@@ -15,7 +15,7 @@ public class SingleDoorUnlock : MonoBehaviour
         if (playerStanding == true)
         {
             doorToUnlock.SetActive(false);
-            Debug.Log("Did it");            
+            Debug.Log("Unlocked door");            
         }
     }
 
