@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 guid: 499ec316d1bd5ff4e803040a7915ddce
 TextureImporter:
+<<<<<<< main
   internalIDToNameTable:
   - first:
       213: 2030659826953252455
@@ -257,6 +258,9 @@ TextureImporter:
   - first:
       213: -5790705575955234762
     second: tilemap.2_84
+=======
+  internalIDToNameTable: []
+>>>>>>> .
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -296,12 +300,20 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< main
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> .
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< main
   spritePixelsToUnits: 64
+=======
+  spritePixelsToUnits: 100
+>>>>>>> .
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -323,6 +335,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< main
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -336,6 +349,9 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+=======
+    textureCompression: 1
+>>>>>>> .
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -344,6 +360,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< main
     sprites:
     - serializedVersion: 2
       name: tilemap.2_0
@@ -2130,6 +2147,9 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+    sprites: []
+>>>>>>> .
     outline: []
     physicsShape: []
     bones: []
