@@ -21,11 +21,13 @@ public class LevelTransition : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         totalPlayers += 1;
+        Debug.Log("+1");
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         totalPlayers -= 1;
+        Debug.Log("-1");
     }
 
     private void Teleport()
@@ -34,7 +36,6 @@ public class LevelTransition : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             Debug.Log("LevelTransition");
-
         }
 
     }
