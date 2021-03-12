@@ -12,10 +12,9 @@ public class LevelTransition : MonoBehaviour
     {
         if (totalPlayers == 2)
         {
-            Debug.Log("2");
+            //Debug.Log("2");
             //totalPlayers = 0;
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            
         }
     }
 
@@ -34,6 +33,8 @@ public class LevelTransition : MonoBehaviour
         if (totalPlayers == 2)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("LevelTransition");
+
         }
 
     }
