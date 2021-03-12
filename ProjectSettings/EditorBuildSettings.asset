@@ -9,9 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Liam/LiamScene1.unity
     guid: f3bbb24800904c04b94244a57230446f
   - enabled: 1
-    path: Assets/Scenes/Liam/LiamScene2.unity
-    guid: 1c7ef326315fa4e42b5d3b056312c2b6
+    path: Assets/Scenes/Liam/LiamScene2B.unity
+    guid: 3a54019db3cacd8408f94fa2069a3ece
   - enabled: 1
-    path: Assets/Scenes/Liam/LiamScene3.unity
-    guid: 8ac65a27192a81b42aa66b365afa89f6
+    path: Assets/Scenes/Liam/LiamScene3B.unity
+    guid: 7a204f2379d6e9b4fbd41358b7fbf591
+  - enabled: 1
+    path: Assets/Scenes/Liam/LiamScene4.unity
+    guid: 1855e9d1a3e89a24b804ac78582f2ed0
   m_configObjects: {}
