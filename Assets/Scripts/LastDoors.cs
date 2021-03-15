@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 
-public class SingleDoorUnlock : MonoBehaviour
+public class LastDoors : MonoBehaviour
 {
-    public GameObject doorToUnlock;
+    public GameObject doorOne;
+    public GameObject doorTwo;
     private bool playerStanding;
 
     // Update is called once per frame
@@ -14,8 +14,9 @@ public class SingleDoorUnlock : MonoBehaviour
     {
         if (playerStanding == true)
         {
-            doorToUnlock.SetActive(false);
-            Debug.Log("Unlocked door");            
+            doorOne.SetActive(false);
+            doorTwo.SetActive(true);
+            Debug.Log("Unlocked door");
         }
     }
 
