@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Top layer stairs trees
+    uniqueID: 1339643721
+    locked: 0
   - name: Floor
     uniqueID: 404247113
     locked: 0
@@ -61,4 +64,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 606456523
+    locked: 0
+  - name: BEHIND
+    uniqueID: 1876513941
     locked: 0

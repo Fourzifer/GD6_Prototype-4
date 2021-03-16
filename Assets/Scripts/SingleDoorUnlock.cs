@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class SingleDoorUnlock : MonoBehaviour
 {
     public GameObject doorToUnlock;
-    static bool playerStanding;
+    private bool playerStanding;
 
     // Update is called once per frame
     void Update()
@@ -15,7 +15,7 @@ public class SingleDoorUnlock : MonoBehaviour
         if (playerStanding == true)
         {
             doorToUnlock.SetActive(false);
-            Debug.Log("Did it");            
+            Debug.Log("Unlocked door");            
         }
     }
 

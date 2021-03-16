@@ -12,21 +12,22 @@ public class LevelTransition : MonoBehaviour
     {
         if (totalPlayers == 2)
         {
-            Debug.Log("2");
+            //Debug.Log("2");
             //totalPlayers = 0;
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         totalPlayers += 1;
+        Debug.Log("+1");
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         totalPlayers -= 1;
+        Debug.Log("-1");
     }
 
     private void Teleport()
@@ -34,6 +35,7 @@ public class LevelTransition : MonoBehaviour
         if (totalPlayers == 2)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("LevelTransition");
         }
 
     }
