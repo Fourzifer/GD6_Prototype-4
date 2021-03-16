@@ -21,19 +21,9 @@ public class SplitTransition : MonoBehaviour
             SceneManager.LoadScene("LiamScene12B");
         }
 
-        if (sceneName == "LiamScene12A")
+        if ((sceneName == "LiamScene12A") || (sceneName == "LiamScene12B"))
         {
-            SceneManager.LoadScene("LiamScene13A");
-        }
-
-        else if (sceneName == "LiamScene12B")
-        {
-            SceneManager.LoadScene("LiamScene13B");
-        }
-
-        if ((sceneName == "LiamScene13B") || (sceneName == "LiamScene13A"))
-        {
-            SceneManager.LoadScene("LiamScene14");
+            SceneManager.LoadScene("LiamScene13");
         }
     }
 }
