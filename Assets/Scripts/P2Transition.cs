@@ -7,7 +7,7 @@ public class P2Transition : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        SceneManager.LoadScene("LiamScene11B");
         Debug.Log("Player 2 transition");
+        SceneManager.LoadScene("LiamScene11B");
     }
 }
