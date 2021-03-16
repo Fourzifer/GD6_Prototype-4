@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class PressurePlateTransition : MonoBehaviour
 {
-
     private void OnTriggerEnter2D(Collider2D collider)
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
